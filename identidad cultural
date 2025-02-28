@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultura Nicaragüense</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #E3F2FD;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1565C0;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #64B5F6;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        section {
+            padding: 20px;
+        }
+        .imagen {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+        }
+        footer {
+            background-color: #1565C0;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cultura Nicaragüense</h1>
+    </header>
+    <nav>
+        <a href="#historia">Historia</a>
+        <a href="#arquitectura">Arquitectura</a>
+        <a href="#gastronomia">Gastronomía</a>
+        <a href="#blog">Blog</a>
+        <a href="#eventos">Eventos</a>
+    </nav>
+    <section id="historia">
+        <h2>Historia</h2>
+        <p>Nicaragua posee una rica historia cultural influenciada por las civilizaciones indígenas, la colonización española y la diversidad étnica.</p>
+    </section>
+    <section id="arquitectura">
+        <h2>Arquitectura</h2>
+        <p>Desde la Catedral de León hasta el Palacio Nacional, la arquitectura nicaragüense es un reflejo de su historia y cultura.</p>
+        <img src="arquitectura.jpg" alt="Arquitectura de Nicaragua" class="imagen">
+    </section>
+    <section id="gastronomia">
+        <h2>Gastronomía</h2>
+        <p>La comida nicaragüense es una fusión de sabores indígenas y españoles. Destacan el gallo pinto, el vigorón y el nacatamal.</p>
+        <img src="gastronomia.jpg" alt="Plato típico de Nicaragua" class="imagen">
+    </section>
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>Explora artículos sobre tradiciones, costumbres y personajes influyentes en la cultura nicaragüense.</p>
+    </section>
+    <section id="eventos">
+        <h2>Eventos</h2>
+        <p>Consulta nuestra agenda de eventos culturales, festivales y celebraciones en Nicaragua.</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Cultura Nicaragüense. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
